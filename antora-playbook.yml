@@ -2,7 +2,7 @@ site:
   title: UNIT refansearkitekturer
   # the 404 page and sitemap files only get generated when the url property is set
 
-  url: https://modelx-no.github.io/
+  url: https://unit-norge.github.io/
   start_page: unit-ra::index.adoc
 content:
   sources:
@@ -12,7 +12,7 @@ content:
 # unit modules
 #=========
   
-  #- url: https://github.com/modelx-no/unit-ra.git
+  #- url: https://github.com/unit-norge/unit-ra.git
   - url: ./../components/unit-ra
     branches: main
     start_path: docs
@@ -20,12 +20,12 @@ content:
     
 ui:
   bundle:
-    #url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
-    url: C:\gitlab\digdir\antora-ui\build\ui-bundle.zip
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+#    url: C:\gitlab\digdir\antora-ui\build\ui-bundle.zip
     snapshot: true
 
 output:
-    dir: ././../output/github-pages/modelx-no.github.io
+    dir: ././../output/unit-norge.github.io
 asciidoc:
   attributes:
     lang: no@
