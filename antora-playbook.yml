@@ -1,0 +1,34 @@
+site:
+  title: UNIT refansearkitekturer
+  # the 404 page and sitemap files only get generated when the url property is set
+
+  url: https://modelx-no.github.io/
+  start_page: unit-ra::index.adoc
+content:
+  sources:
+  # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
+ 
+#
+# unit modules
+#=========
+  
+  #- url: https://github.com/modelx-no/unit-ra.git
+  - url: ./../components/unit-ra
+    branches: main
+    start_path: docs
+    
+    
+ui:
+  bundle:
+    #url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    url: C:\gitlab\digdir\antora-ui\build\ui-bundle.zip
+    snapshot: true
+
+output:
+    dir: ././../output/github-pages/modelx-no.github.io
+asciidoc:
+  attributes:
+    lang: no@
+    wysiwig_editing: 0
+    target_audience: all@
+    
