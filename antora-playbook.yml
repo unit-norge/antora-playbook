@@ -12,8 +12,8 @@ content:
 # unit modules
 #=========
   
-  #- url: https://github.com/unit-norge/unit-ra.git
-  - url: ./../components/unit-ra
+  - url: https://github.com/unit-norge/unit-ra.git
+  #- url: ./../components/unit-ra
     branches: main
     start_path: docs
     
