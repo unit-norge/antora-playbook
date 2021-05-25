@@ -1,5 +1,5 @@
 site:
-  title: UNIT refansearkitekturer
+  title: UNIT referansearkitekturer
   # the 404 page and sitemap files only get generated when the url property is set
 
   url: https://unit-norge.github.io/
