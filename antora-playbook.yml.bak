@@ -1,5 +1,5 @@
 site:
-  title: HKdir referansearkitekturer
+  title: Referansearkitekturer i høyere utdanning og forskning
   # the 404 page and sitemap files only get generated when the url property is set
 
   url: https://unit-norge.github.io/
