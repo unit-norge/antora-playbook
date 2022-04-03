@@ -28,7 +28,7 @@ cd /c/antora/unit-norge/output/unit-norge.github.io
 #Make it work with github:
 touch .nojekyll
 #
-#git checkout main
-#git add .
-#git commit -m "Dev"
-#git push origin main
+git checkout main
+git add .
+git commit -m "Dev"
+git push origin main

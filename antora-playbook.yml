@@ -14,7 +14,7 @@ content:
   
   - url: https://github.com/unit-norge/unit-ra.git
   #- url: ./../components/unit-ra
-    branches: [ver1.0, main]
+    branches: [main]
     start_path: docs
     
     
